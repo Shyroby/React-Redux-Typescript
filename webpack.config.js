@@ -6,7 +6,8 @@ module.exports = {
         publicPath: '/'
     },
     devServer: {
-        contentBase: './dist'
+        contentBase: './dist',
+        historyApiFallback: true
     },
     // Enable sourcemaps for debugging webpack's output.
     devtool: 'source-map',
