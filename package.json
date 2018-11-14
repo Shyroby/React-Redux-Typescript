@@ -10,12 +10,6 @@
   },
   "author": "Marco <marco.picasso@hotmail.it>",
   "license": "MIT",
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
-  },
   "dependencies": {
     "@types/react": "^16.7.3",
     "@types/react-dom": "^16.0.9",
