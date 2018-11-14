@@ -28,8 +28,9 @@ module.exports = {
             // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
             {
                 enforce: 'pre',
-                test: /\.js$/,
-                loader: 'source-map-loader'
+                test: /\.(js|jsx)$/,
+                use: ['babel-loader'],
+                exclude: __dirname + 'node_modules/'
             },
             // allows transpiling JavaScript files using Babel and webpack.
             {
